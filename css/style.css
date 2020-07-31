@@ -1,0 +1,82 @@
+body
+{
+	margin: 0px;
+	font-family: sans-serif;
+	background: url(../img/DJI_03132.jpg);
+	
+}
+
+.accueil-content
+{
+	margin: 40px;
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	background: rgba(10,200,100,1);
+	
+}
+
+header{
+	display: flex;
+	justify-content: flex-start;
+}
+
+aside img
+{
+	width: 400px;
+}
+
+.container-element{
+	display: flex;
+	justify-content: center;
+	padding-right: 40px;
+}
+
+
+nav a
+{
+	font-style: italic;
+	font-size: 24px;
+	text-decoration: none;
+	height: 30px;
+}
+
+video
+{
+	width: 400px;
+}
+
+.menu
+{
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.sous-menu
+{
+	
+	position: absolute;
+	top: 20px;
+	left: 0;
+	visibility: hidden;
+	transition: 0.5s all ease-in;
+
+	background: rgba(10,200,100,1);
+} 
+
+
+.menu:hover .sous-menu
+{
+	visibility: visible;
+	transition: 0.3s all ease-in;
+}
+
+.sous-menu li 
+{
+	list-style: none;
+}
+
